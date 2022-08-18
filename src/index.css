@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  
+
+  /* background:url("file:///E:/5th/photography/public/img/img-1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  
+  
+  
+}
+.page-holder {
+  min-height: 100vh;
+  
+  
+}
+
+.bg-cover {
+  background-size: cover !important;
+   
+}
+
+.img-fluid{
+ position:absolute;
+ width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* .navbar{
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+.navbar a {
+ 
+  
+  color: white;
+  text-decoration: none;
+  font-size:25px;
+  width: 25%; /* Four links of equal widths */
+  /* text-align: center;
+}
+ */ */
+
+
+   .carousel{
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.title{
+  font-size:50px;
+  font-weight: 900;
+  
+  /* background: -webkit-linear-gradient(rgb(145, 177, 228), rgb(4, 131, 222));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+} 
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.img{
+  border-radius: 10px;
+}
+.card{
+  background-color:white;
+}
+.row1{
+  background-color:white;
+}
+.about{
+  background-color:rgba(0, 0, 0, 0.2)  
+}
+.up{
+  width: 75px;
+}
+
+
+
+.menu {
+  /* margin:  0;
+  padding: 0; */
+  /* overflow: hidden; */
+  /* list-style: none; */
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #62bed2;
+  
+}
+
+.menu .menu-item {
+  display: table-cell;
+}
+
+.menu .menu-item a {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ font-size: 25px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.menu .menu-item a:hover {
+  background-color: #62bed2;
+}
